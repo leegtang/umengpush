@@ -14,7 +14,7 @@ public class PushUtil {
 	private static String serverURL="http://msg.umeng.com/api/send";  
 	private static String queryURL="http://msg.umeng.com/api/status";   
 	
-	private static String production_mode="true";
+	private static String production_mode="false";
 	
 	public static String getSign(String url, String postBody , String masterSecret){
 		try {
